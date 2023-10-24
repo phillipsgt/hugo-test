@@ -5,3 +5,5 @@ draft = false
 +++
 
 hola
+I am trying to examine the results of my continuous delivery Hugo website pipeline.
+How am I doing :)
