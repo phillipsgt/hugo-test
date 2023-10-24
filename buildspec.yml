@@ -19,5 +19,5 @@ phases:
       - hugo 
   post_build:
     commands:
-      - aws s3 sync --delete public/ s3://hugo-test-duke/
+      - aws s3 sync public/ s3://hugo-test-duke --delete #sync everything in the public folder we just created (source) on the EC2 instance to my s3 bucket (destination)
       - echo Build completed on `date`
